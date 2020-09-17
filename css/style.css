@@ -1,0 +1,298 @@
+body {
+	width: 100%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.vid-parent {
+	position: relative;
+}
+
+.remove-vid-marg {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+video {
+	width: 100%;
+	height: 50%;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #225470;
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.tt {
+	font-family: "Ubuntu", sans-serif;
+}
+
+.vid-content {
+	position: absolute;
+	z-index: 2;
+	top: 35%;
+	left: 35%;
+	text-align: center;
+	color: #fff;
+}
+
+.bottom-banner {
+	color: white;
+	padding: 10px;
+}
+
+.contact-form {
+	width: 100%;
+}
+
+.stripe {
+	background-image: linear-gradient(240deg, #ed213a, #93291e);
+	padding: 3rem;
+	height: 13rem;
+	margin-top: 4rem;
+	transform: rotate(10deg);
+	z-index: -5;
+}
+
+.testimonials {
+	margin: 50px auto;
+}
+
+.profile:hover {
+	box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.common {
+	text-align: center;
+	font-weight: bold;
+	color: #dc3545;
+	padding-bottom: 4px;
+}
+
+.common::after {
+	content: "";
+	background-color: #ed213a;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+.testimonials .row {
+	margin-top: 30px;
+}
+
+.col-md-4 {
+	margin: 40px auto;
+}
+
+.profile {
+	padding: 70px 10px 10px;
+	background-color: #efefef;
+}
+
+.profile img {
+	top: -60px;
+	position: absolute;
+	left: calc(50% - 60px);
+	border: 10px solid white;
+}
+
+.user {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.profile h5 {
+	font-size: 20px;
+	color: #dc3545;
+	margin-top: 15px;
+}
+
+.admina {
+	color: #00c271;
+}
+
+.admina:hover {
+	color: #00c271;
+	font-style: italic;
+	text-decoration: solid;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+	.navbar-text {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 950px) {
+	.navbar-text {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 1100px) {
+	.res {
+		font-size: 2vh;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 788px) {
+	.res {
+		font-size: 1.5vh;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 630px) {
+	.txt-banner {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+	.tt {
+		font-size: 4vh;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+	.bb {
+		font-size: 2vh;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+	.vid-content {
+		top: 30%;
+		left: 35%;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 750px) {
+	.off {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+	.vid-content {
+		top: 30%;
+		left: 25%;
+	}
+	.off {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 690px) {
+	.vid-content {
+		top: 25%;
+		left: 28%;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 350px) {
+	.vid-content {
+		top: 20%;
+		left: 25%;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 415px) {
+	.vid-content {
+		top: 10%;
+		left: 20%;
+	}
+	.tt {
+		font-size: 3vh;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 535px) {
+	.vid-content {
+		top: 20%;
+		left: 25%;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 330px) {
+	.vid-content {
+		top: 20%;
+		left: 25%;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 375px) {
+	.vid-content {
+		top: 17%;
+		left: 25%;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 770px) {
+	.vid-content {
+		top: 18%;
+		left: 25%;
+	}
+	.txt-banner {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 1025px) {
+	.vid-content {
+		top: 20%;
+		left: 32%;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+	.vid-content {
+		top: 20%;
+		left: 25%;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 280px) {
+	.vid-content {
+		top: 13%;
+		left: 23%;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+	.vid-content {
+		top: 17%;
+		left: 22%;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+	.vid-content {
+		top: 20%;
+		left: 29%;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 340px) {
+	.vid-content {
+		top: 17%;
+		left: 24%;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 290px) {
+	.vid-content {
+		top: 15%;
+		left: 23%;
+	}
+}
